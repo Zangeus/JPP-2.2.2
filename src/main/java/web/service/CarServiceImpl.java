@@ -21,11 +21,11 @@ public class CarServiceImpl implements CarService{
 
     static {
         cars = new ArrayList<>();
-        cars.add(new Car("凡人_1", "ModelOfAge_1", 2010));
-        cars.add(new Car("凡人_2", "ModelOfAge_2", 2020));
-        cars.add(new Car("凡人_3", "ModelOfAge_3", 2030));
-        cars.add(new Car("凡人_4", "ModelOfAge_4", 2040));
-        cars.add(new Car("凡人_5", "ModelOfAge_5", 2050));
+        cars.add(new Car("凡一人", "ModelOfAge_1", 2010));
+        cars.add(new Car("凡二人", "ModelOfAge_2", 2020));
+        cars.add(new Car("凡三人", "ModelOfAge_3", 2030));
+        cars.add(new Car("凡四人", "ModelOfAge_4", 2040));
+        cars.add(new Car("凡五人", "ModelOfAge_5", 2050));
     }
 
     public List<Car> getCars(int count) {
