@@ -29,6 +29,7 @@ public class CarServiceImpl implements CarService{
     }
 
     public List<Car> getCars(int count) {
-        return cars.stream().limit(count).collect(Collectors.toList());
+        if (count < 0 || count >= 5) return cars;
+        else return cars.stream().limit(count).collect(Collectors.toList());
     }
 }
